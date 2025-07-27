@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 常用属性</title>
+
+    <style>
+        .block {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+
+        .inline{
+            background-color: brown;
+        }
+
+        .inline-block{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font: border 50px 'kaiti';">这是一个复合属性</h1>
+    <p style="line-height: 40px;">这是一段长文本</p>
+
+
+    <div class="block">这是一个块级元素</div>
+    <span class="inline">这是一个行内元素</span>
+    <img src=# alt=无法显示 class="inline-block">
+
+    <h2>display</h2>
+    <div style="display: inline; background-color: aquamarine;">这是一个转换成行内元素的标签</div>
+
+    <span  style="display: inline-block; background-color: darkgreen; width: 100px; height: 100px;">这是一个转换成行内块元素的标签</span>
+</body>
+</html>
