@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"">
+    <title>JS 事件处理</title>
+</head>
+
+<body>
+    <button onclick="click_event()">这是一个点击按钮</button>
+    <input type="text" onfocus="onfocus_event()" onblur="onblur_event()">
+    <script>
+        function click_event(){
+            alert("点击事件触发了")
+        }
+
+        function onfocus_event(){
+            console.log("聚焦了")
+        }
+
+        function onblur_event(){
+            console.log("失焦了")
+        }
+    </script>
+</body>
+</html>
